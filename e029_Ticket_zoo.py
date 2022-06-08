@@ -41,6 +41,8 @@ for rango, precio, boletos, tipo in tiposBoletos:
         totalXboleto = round(totalXboleto, 2)
         print('{:<3} entradas {:<10} ({:2d}€): |{:>5}€'.format(boletos, tipo, precio, totalXboleto))
         total += totalXboleto
+
+print('{:>38}\n{:>37}€'.format('-'*6,total))
         
     
 
