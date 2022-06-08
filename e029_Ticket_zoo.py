@@ -16,7 +16,7 @@ menores = 0
 normales = 0
 jubilados = 0
 
-tiposBoletos = [ [2,0, bebe,'de bebe'],
+tiposBoletos =[ [2,0, bebe,'de bebe'],
                 [12,14, menores, 'de menores'],
                 [65,23, normales, 'normales'],
                 [float('inf'),18, jubilados, 'jubilado']
